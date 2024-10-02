@@ -1,0 +1,24 @@
+{
+    "name": "lithemod/orbis",
+    "description": "A powerful class manager for effortless instance handling in PHP!",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Lithe\\Orbis\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Lithe\\Orbis\\Tests\\": "tests/"
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "scripts": {
+        "test": "phpunit"
+    },
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^11.3"
+    }
+}
